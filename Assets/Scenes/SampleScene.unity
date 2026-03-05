@@ -234,6 +234,7 @@ GameObject:
   - component: {fileID: 524113575}
   - component: {fileID: 524113577}
   - component: {fileID: 524113576}
+  - component: {fileID: 524113578}
   m_Layer: 0
   m_Name: Wide_leaf_2 (1)
   m_TagString: Untagged
@@ -249,13 +250,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524113574}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.53369975, y: -0.8894166, z: 0.75513744}
+  m_LocalRotation: {x: -0, y: 0.9283199, z: -0, w: 0.37178254}
+  m_LocalPosition: {x: -0.59402263, y: -0.8894166, z: 0.74533844}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 826249748}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 136.349, z: 0}
 --- !u!23 &524113576
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -311,6 +312,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524113574}
   m_Mesh: {fileID: 2645528281639254396, guid: 92460e16817b6284e9427475e20ff700, type: 3}
+--- !u!114 &524113578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524113574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f612cba7dc951a4696b86d60e6e7c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomSpeed: 1
+  swayAmount: 5
+  swaySpeed: 1
 --- !u!1 &582327018
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,6 +651,7 @@ GameObject:
   - component: {fileID: 1500563916}
   - component: {fileID: 1500563918}
   - component: {fileID: 1500563917}
+  - component: {fileID: 1500563919}
   m_Layer: 0
   m_Name: flower_patch_2 (1)
   m_TagString: Untagged
@@ -713,6 +730,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500563915}
   m_Mesh: {fileID: -3874045828986399733, guid: 92460e16817b6284e9427475e20ff700, type: 3}
+--- !u!114 &1500563919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500563915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f612cba7dc951a4696b86d60e6e7c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomSpeed: 1
+  swayAmount: 5
+  swaySpeed: 1
 --- !u!1 &1656065852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,6 +1257,7 @@ GameObject:
   - component: {fileID: 2335307187540517288}
   - component: {fileID: 5326820597782058367}
   - component: {fileID: 4045879766853587511}
+  - component: {fileID: 5736589098252316099}
   m_Layer: 0
   m_Name: flower_patch_2
   m_TagString: Untagged
@@ -1232,6 +1265,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5736589098252316099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5736589098252316098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f612cba7dc951a4696b86d60e6e7c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomSpeed: 1
+  swayAmount: 5
+  swaySpeed: 1
 --- !u!1 &6401083498980992601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1291,7 @@ GameObject:
   - component: {fileID: 3061066682626932934}
   - component: {fileID: 557698236744073803}
   - component: {fileID: 1289500792228938052}
+  - component: {fileID: 6401083498980992602}
   m_Layer: 0
   m_Name: Wide_leaf_2
   m_TagString: Untagged
@@ -1250,6 +1299,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6401083498980992602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6401083498980992601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f612cba7dc951a4696b86d60e6e7c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bloomSpeed: 1
+  swayAmount: 5
+  swaySpeed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
